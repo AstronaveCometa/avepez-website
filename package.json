@@ -1,14 +1,16 @@
 {
   "name": "avepez-website",
+  "homepage": "https://AstronaveCometa.github.io/avepez-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "build": "vite build",
+  "preview": "vite preview"
+},
   "dependencies": {
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
