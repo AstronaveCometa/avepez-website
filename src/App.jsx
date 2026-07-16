@@ -12,7 +12,7 @@ import Requerimientos from './pages/Requerimientos';
 import Muestra from './pages/Muestra';
 import Contacto from './pages/Contacto';
 
-import './styles/index.css';
+import './styles/styles.css';
 
 export default function App() {
   return (
